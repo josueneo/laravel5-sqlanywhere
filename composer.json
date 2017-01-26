@@ -1,5 +1,5 @@
 {
-    "name": "josueneo/sqlanywhere",
+    "name": "josueneo/laravel5-sqlanywhere",
     "description": "DB Driver for the SAP SQLAnywhere",
     "authors": [
         {

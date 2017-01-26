@@ -1,9 +1,9 @@
 <?php
 
-namespace josueneo\sqlanywhere;
+namespace josueneo\laravel5-sqlanywhere;
 
 use Illuminate\Support\ServiceProvider;
-use josueneo\sqlanywhere\SQLAnywhereConnector as Connector;
+use josueneo\laravel5-sqlanywhere\SQLAnywhereConnector as Connector;
 
 class SQLAnywhereServiceProvider extends ServiceProvider
 {

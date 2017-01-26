@@ -1,8 +1,8 @@
 <?php
-namespace josueneo\sqlanywhere;
+namespace josueneo\laravel5-sqlanywhere;
 
 use Illuminate\Database\Connection;
-use josueneo\sqlanywhere\SQLAnywhereQueryGrammar as QueryGrammar;
+use josueneo\laravel5-sqlanywhere\SQLAnywhereQueryGrammar as QueryGrammar;
 
 class SQLAnywhereConnection extends Connection{
     protected function getDefaultQueryGrammar() {

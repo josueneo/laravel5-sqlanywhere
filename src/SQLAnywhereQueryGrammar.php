@@ -1,6 +1,6 @@
 <?php
 
-namespace josueneo\sqlanywhere;
+namespace josueneo\laravel5-sqlanywhere;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar;
