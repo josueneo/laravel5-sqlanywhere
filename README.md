@@ -23,7 +23,8 @@ make install
 
 Override your httpd systemd script with
 
-```systemctl edit httpd
+```
+systemctl edit httpd
 ```
 
 This will open your text editor, just add the below:
@@ -46,7 +47,9 @@ To be written.
 ## Installing driver
 
 Add service provider, open config/app.php
-```josueneo\sqlanywhere\SQLAnywhereServiceProvider::class```
+```
+josueneo\sqlanywhere\SQLAnywhereServiceProvider::class
+```
 
 Edit configuration at config/database.php
 ```
