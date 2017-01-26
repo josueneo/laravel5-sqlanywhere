@@ -1,5 +1,5 @@
 <?php
-namespace jbalbuena\sqlanywhere;
+namespace josueneo\sqlanywhere;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;

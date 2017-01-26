@@ -1,6 +1,6 @@
 <?php
 
-namespace jbalbuena\sqlanywhere;
+namespace josueneo\sqlanywhere;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar;

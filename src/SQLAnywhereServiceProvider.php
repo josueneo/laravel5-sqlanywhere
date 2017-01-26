@@ -1,9 +1,9 @@
 <?php
 
-namespace jbalbuena\sqlanywhere;
+namespace josueneo\sqlanywhere;
 
 use Illuminate\Support\ServiceProvider;
-use jbalbuena\sqlanywhere\SQLAnywhereConnector as Connector;
+use josueneo\sqlanywhere\SQLAnywhereConnector as Connector;
 
 class SQLAnywhereServiceProvider extends ServiceProvider
 {

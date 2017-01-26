@@ -1,5 +1,5 @@
 <?php
-namespace jbalbuena\sqlanywhere;
+namespace josueneo\sqlanywhere;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Blueprint;

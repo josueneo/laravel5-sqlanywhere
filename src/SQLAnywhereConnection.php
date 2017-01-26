@@ -1,8 +1,8 @@
 <?php
-namespace jbalbuena\sqlanywhere;
+namespace josueneo\sqlanywhere;
 
 use Illuminate\Database\Connection;
-use jbalbuena\sqlanywhere\SQLAnywhereQueryGrammar as QueryGrammar;
+use josueneo\sqlanywhere\SQLAnywhereQueryGrammar as QueryGrammar;
 
 class SQLAnywhereConnection extends Connection{
     protected function getDefaultQueryGrammar() {
