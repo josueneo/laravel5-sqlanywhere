@@ -1,0 +1,12 @@
+{
+    "name": "josueneo/sqlanywhere",
+    "description": "DB Driver for the SAP SQLAnywhere",
+    "authors": [
+        {
+            "name": "Josue Balbuena",
+            "email": "josue.balbuena@sap.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
