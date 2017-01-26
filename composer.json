@@ -1,23 +1,25 @@
 {
-    "name":"josueneo/laravel5-sqlanywhere",
-    "description":"DB Driver for the SAP SQLAnywhere",
+    "name": "josueneo/laravel5-sqlanywhere",
+    "description": "Driver for the SAP SQLAnywhere database",
+    "keywords": ["laravel","eloquent","sybase","sqlanywhere","database","model"],
     "authors": [
         {
-            "name":"Josue Balbuena"
+            "name": "Josue Balbuena",
+            "homepage": "https://github.com/josueneo/laravel5-sqlanywhere"
         }
     ],
-    "keywords": ["laravel","sqlanywhere","sap","laravel5","database","sqlite"],
+    "license" : "MIT",
     "require": {
-	"php":">=5.6.0"
+        "php": ">=5.6.0",
+        "illuminate/support": "4.*",
+        "illuminate/database": "4.*"
     },
     "require-dev": {
-        "php":">=5.6.0"
+        "php": ">=5.6.0"
     },
-    "minimum-stability":"stable",
     "autoload": {
         "psr-0": {
             "josueneo\\laravel5-sqlanywhere": "src/"
         }
-    },
-    "license": "MIT"
+    }
 }
