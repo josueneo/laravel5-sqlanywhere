@@ -48,7 +48,7 @@ To be written.
 
 Add service provider, open config/app.php
 ```
-josueneo\sqlanywhere\SQLAnywhereServiceProvider::class
+josueneo\laravel5-sqlanywhere\SQLAnywhereServiceProvider::class
 ```
 
 Edit configuration at config/database.php
