@@ -10,9 +10,7 @@
     ],
     "license" : "MIT",
     "require": {
-        "php": ">=5.6.0",
-        "illuminate/support": "4.*",
-        "illuminate/database": "4.*"
+        "php": ">=5.6.0"
     },
     "require-dev": {
         "php": ">=5.6.0"
