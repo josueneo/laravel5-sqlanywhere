@@ -1,5 +1,5 @@
 <?php
-namespace josueneo\laravel5-ssqlanywhere;
+namespace josueneo\laravel5sqlanywhere;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;

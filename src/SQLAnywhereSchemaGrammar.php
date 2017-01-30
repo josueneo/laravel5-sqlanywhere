@@ -1,5 +1,5 @@
 <?php
-namespace josueneo\laravel5-sqlanywhere;
+namespace josueneo\laravel5sqlanywhere;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Blueprint;
