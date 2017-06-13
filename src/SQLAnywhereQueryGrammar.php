@@ -35,7 +35,7 @@ class SQLAnywhereQueryGrammar extends Grammar {
     }
     protected function compileColumns(Builder $query, $columns) {
         if ( ! is_null($query->aggregate)) return;
-        $select = $query->distinct ? 'distinct' : '';
+        $select = $query->distinct ? 'distinct ' : '';
         return $select.$this->columnize($columns);
     }
     protected function compileLimit(Builder $query, $limit) {
