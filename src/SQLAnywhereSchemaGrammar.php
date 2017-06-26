@@ -15,7 +15,7 @@ class SQLAnywhereSchemaGrammar extends Grammar {
 
     public function compileTableExists()
     {
-            return 'select * from sys.systab where table_type_str = ?';
+            return 'select * from sys.systab where table_name = ?';
     }
 
     public function compileCreate(Blueprint $blueprint, Fluent $command)
@@ -51,7 +51,17 @@ class SQLAnywhereSchemaGrammar extends Grammar {
     {
             $columns = $this->columnize($command->columns);
             $table = $this->wrapTable($blueprint);
-            return "alter table {$table} add {$type} {$command->index}($columns)";
+            switch($type){
+                case 'unique':
+                    return "alter table {$table} add {$type}($columns)";
+                    break;
+                case 'index':
+                    return "create index {$command->index} on {$table} ( $columns ASC )";
+                    break;
+                default:
+                    return "alter table {$table} add {$type} {$command->index}($columns)";
+                    
+            }
     }
 
     public function compileDrop(Blueprint $blueprint, Fluent $command)
@@ -185,7 +195,7 @@ class SQLAnywhereSchemaGrammar extends Grammar {
     {
         if ($column->type == 'integer' and $column->autoIncrement)
         {
-            return ' auto_increment primary key';
+            return ' default autoincrement';
         }
     }
 }
