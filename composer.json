@@ -1,6 +1,6 @@
 {
     "name": "josueneo/laravel5-sqlanywhere",
-    "description": "Driver for the SAP SQLAnywhere database",
+    "description": "Laravel 5.0^ Driver for the SAP SQLAnywhere database",
     "keywords": ["laravel","eloquent","sybase","sqlanywhere","database","model"],
     "authors": [
         {
