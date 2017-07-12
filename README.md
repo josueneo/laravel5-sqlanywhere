@@ -46,6 +46,11 @@ To be written.
 
 ## Installing driver
 
+Install it via composer
+```
+composer require josueneo/laravel5-sqlanywhere
+```
+
 Add service provider, open config/app.php
 ```
 josueneo\laravel5-sqlanywhere\SQLAnywhereServiceProvider::class

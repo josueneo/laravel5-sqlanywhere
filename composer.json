@@ -17,8 +17,6 @@
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-0": {
-            "josueneo\\laravel5sqlanywhere": "src/"
-        }
+        "psr-4": {"josueneo\\laravel5sqlanywhere": "src/"}
     }
 }
