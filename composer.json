@@ -12,11 +12,8 @@
     "require": {
         "php": ">=5.6.0"
     },
-    "require-dev": {
-        "php": ">=5.6.0"
-    },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"josueneo\\laravel5sqlanywhere": "src/"}
+        "psr-4": {"josueneo\\laravel5sqlanywhere\\": "src/"}
     }
 }
