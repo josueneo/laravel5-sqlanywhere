@@ -53,7 +53,7 @@ composer require josueneo/laravel5-sqlanywhere
 
 Add service provider, open config/app.php
 ```
-josueneo\laravel5-sqlanywhere\SQLAnywhereServiceProvider::class
+josueneo\laravel5sqlanywhere\SQLAnywhereServiceProvider::class
 ```
 
 Edit configuration at config/database.php
