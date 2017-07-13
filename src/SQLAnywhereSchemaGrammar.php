@@ -58,6 +58,9 @@ class SQLAnywhereSchemaGrammar extends Grammar {
                 case 'index':
                     return "create index {$command->index} on {$table} ( $columns ASC )";
                     break;
+		case 'primary key':
+                    return "alter table {$table} add constraint {$command->index} primary key ($columns)";
+                    break;
                 default:
                     return "alter table {$table} add {$type} {$command->index}($columns)";
                     
