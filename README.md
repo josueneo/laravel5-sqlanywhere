@@ -1,4 +1,4 @@
-# laravel5-sqlanywhere
+# laravel5-sqlanywhere 0.2.3
 
 ## A driver for SAP SQLAnywhere 17 for use with the laravel framework version 5.x
 
