@@ -17,6 +17,10 @@ class SQLAnywhereSchemaGrammar extends Grammar {
     {
             return 'select * from sys.systab where table_name = ?';
     }
+    public function compileColumnListing($table)
+    {
+        return "select column_name from sys.systabcol inner join sys.systab on sys.systab.table_id=sys.systabcol.table_id where sys.systab.table_name='$table'";
+    }
 
     public function compileCreate(Blueprint $blueprint, Fluent $command)
     {
