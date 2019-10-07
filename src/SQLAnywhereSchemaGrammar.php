@@ -132,6 +132,11 @@ class SQLAnywhereSchemaGrammar extends Grammar {
             return 'int';
     }
 
+    protected function typeBigInteger(Fluent $column)
+    {
+            return 'bigint';
+    }
+
     protected function typeFloat(Fluent $column)
     {
             return "float({$column->total}, {$column->places})";
