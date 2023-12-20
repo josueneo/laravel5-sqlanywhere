@@ -1,3 +1,7 @@
+This project was abandoned as of 2022, it was developed as part of my job at SAP for an internal Laravel app.
+Development for SQL Anywhere PDO driver seems to be stopped, however, there is support for PHP 8.2, 8.1, 8.0, 7.4, 7.3, 7.2 for prebuilt binaries, and source code is available at: 
+https://help.sap.com/docs/SUPPORT_CONTENT/sqlany/3362971282.html
+
 # laravel5-sqlanywhere 0.2.3
 
 ## A driver for SAP SQLAnywhere 17 for use with the laravel framework version 5.x
